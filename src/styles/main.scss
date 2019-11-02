@@ -1,5 +1,14 @@
 @import "~bootstrap/scss/bootstrap";
 
 body {
-  background-color: lightcyan;
+  background-color: lightsalmon;
+}
+
+.hide {
+  display: none;
+}
+
+img {
+  width: 300px;
+  height: 150px;
 }
