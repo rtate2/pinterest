@@ -1,4 +1,7 @@
 {
+  "users": "user",
   "pins": "pin",
-  "boards": "board"
+  "boards": "board",
+  "categories": "category",
+  "authentication": "authentication"
 }
