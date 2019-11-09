@@ -5,43 +5,26 @@ import './singleBoard.scss';
 
 // const uId = boardsData.getCurrentUid();
 
-const buildTheBoard = () => {
-  boardsData.getBoardsByUid()
+const buildTheBoard = (uId) => {
+  boardsData.getBoardsByUid(uId)
     .then((boards) => {
-      let domString = '<h2>Pinterest</h2>';
-      domString += '<div id="boards-section" class"d-flex flex-wrap">';
+      let domString = '<h2>Boards</h2>';
+      domString += '<div id="boards-section" class="d-flex flex-wrap text-center">';
       boards.forEach((board) => {
-        domString += 'some info here';
+        domString += `
+          <div class="card ${board.id} main-board" style="width: 18rem;">
+            <div class="card-body ${board.uId}">
+              <h5 class="card-title">${board.name}</h5>
+              <p class="card-text">${board.description}</p>
+              <a id="pin-button" href="#" class="btn btn-primary">View Pins</a>
+            </div>
+          </div>
+    `;
       });
       domString += '</div>';
-      utilities.printToDom('', domString);
+      utilities.printToDom('boards', domString);
     })
     .catch((error) => console.error(error));
 };
 
 export default { buildTheBoard };
-
-// const buildTheMachine = () => {
-//   smash.getCompleteMachine()
-//     .then((positions) => {
-//       let domString = '<h2>VENDING MACHINE</h2>';
-//       domString += '<div id="snack-section" class="d-flex flex-wrap">';
-//       positions.forEach((position) => {
-//         domString += snacks.makeASnack(position);
-//       });
-//       domString += '</div>';
-//       utilities.printToDom('machine', domString);
-//       $('#machine').on('click', '.buy-snack', buySnack);
-//     })
-//     .catch((error) => console.error(error));
-// };
-
-// export default { buildTheMachine };
-
-// Boards const boardsComponent = () => {
-//   const domString = '<h1>Boards</h1>';
-
-//   utilities.printToDom('boards', domString);
-// };
-
-// export default { boardsComponent };
