@@ -1,9 +1,15 @@
+import $ from 'jquery';
 import utilities from '../../helpers/utilities';
 import boardsData from '../../helpers/data/boardsData';
 
 import './singleBoard.scss';
+import pins from '../pins/pins';
 
-// const uId = boardsData.getCurrentUid();
+const displayPinBoards = (e) => {
+  const boardId = e.target.id;
+  pins.buildThePinsBoard(boardId);
+  $('#boards').hide();
+};
 
 const buildTheBoard = (uId) => {
   boardsData.getBoardsByUid(uId)
@@ -16,13 +22,14 @@ const buildTheBoard = (uId) => {
             <div class="card-body ${board.uId}">
               <h5 class="card-title">${board.name}</h5>
               <p class="card-text">${board.description}</p>
-              <a id="pin-button" href="#" class="btn btn-primary">View Pins</a>
+              <a id="${board.id}" href="#" class="btn btn-primary pin-card">View Pins</a>
             </div>
           </div>
     `;
       });
       domString += '</div>';
       utilities.printToDom('boards', domString);
+      $('#boards').on('click', '.pin-card', displayPinBoards);
     })
     .catch((error) => console.error(error));
 };
