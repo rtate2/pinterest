@@ -1,25 +1,29 @@
 {
-  "boards1": {
-    "id": "A1",
-    "name": "Sporting - Basketball",
+  "board1": {
+    "name": "Sporting",
     "uId": "8ODEhl1f5gUlAdJcKxjxsyAX8BO2",
-    "isPrivate": true,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum maximus porttitor."
+    "isPrivate": false,
+    "description": "Collection of sporting events, activities, gear, etc."
   },
 
-  "boards2": {
-    "id": "A2",
-    "name": "Sporting - Fishing",
+  "board2": {
+    "name": "Arts and Crafts",
     "uId": "8ODEhl1f5gUlAdJcKxjxsyAX8BO2",
     "isPrivate": false,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum maximus porttitor."
   },
 
-  "boards3": {
-    "id": "A3",
-    "name": "Sporting - Football",
+  "board3": {
+    "name": "Technologies",
     "uId": "8ODEhl1f5gUlAdJcKxjxsyAX8BO2",
-    "isPrivate": true,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum maximus porttitor."
+    "isPrivate": false,
+    "description": "New and old technologies that make the world a better place."
+  },
+
+  "board4": {
+    "name": "Misc.",
+    "uId": "12345",
+    "isPrivate": false,
+    "description": "Somebody else's interests."
   }
 }

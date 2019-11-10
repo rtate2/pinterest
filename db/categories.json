@@ -1,19 +1,31 @@
 {
-  "categories1": {
-    "id": "",
-    "categoryType": "",
-    "description":""
+  "category1": {
+    "categoryType": "Arts and Crafts",
+    "description":"For creative people"
   },
 
-  "categories2": {
-    "id": "",
-    "categoryType": "",
-    "description":""
+  "category2": {
+    "categoryType": "Sports Basketball",
+    "description":"Any and everything basketball"
   },
 
-  "categories3": {
-    "id": "",
-    "categoryType": "",
-    "description":""
+  "category3": {
+    "categoryType": "Sports Fishing",
+    "description":"Any and everthing fishing"
+  },
+
+  "category4": {
+    "categoryType": "Sports Football",
+    "description":"Any and everything football"
+  },
+
+  "category5": {
+    "categoryType": "Technology",
+    "description":"Any and everything technology"
+  },
+
+  "category6": {
+    "categoryType": "Horses",
+    "description":"Any and everything horse-related"
   }
 }

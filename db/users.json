@@ -1,11 +1,10 @@
 {
-  "users": {
-    "id": "",
-    "name": "",
-    "email": "",
-    "location": "",
-    "imageUrl": "",
-    "joinDate": "",
-    "uId": ""
+  "user1": {
+    "name": "Randy Tate",
+    "email": "randytatejr@gmail.com",
+    "location": "Nashville, TN",
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/5449c08de4b05603d709d96e/1464994340826-STI9AGGYB7VQC2HDERVY/ke17ZwdGBToddI8pDm48kNiEM88mrzHRsd1mQ3bxVct7gQa3H78H3Y0txjaiv_0fbwCslksTNrZWewkKoQpNoRQNEivkRK0W_9ZDv6X_5bZqROx17-M3CJ_uqF218_GRUB8jTqgVFBLQw7EVqyS05iIHjaiTB02Lwx-HkkXheCxjkmXxuzg5ylWATJcanlQVc5pbFGTwvnlW6F7XCeVRRA/image-asset.png",
+    "joinDate": "November 4, 2019",
+    "uId": "8ODEhl1f5gUlAdJcKxjxsyAX8BO2"
   }
 }
