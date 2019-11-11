@@ -9,7 +9,17 @@ const displayPinBoards = (e) => {
   const boardId = e.target.id;
   pins.buildThePinsBoard(boardId);
   $('#boards').hide();
+  $('#pins').show();
 };
+
+const hidePinBoards = () => {
+  $('#pins').on('click', '.hide-pins', () => {
+    console.log('Hey Little Fella');
+    $('#pins').hide();
+    $('#boards').show();
+  });
+};
+hidePinBoards();
 
 const buildTheBoard = (uId) => {
   boardsData.getBoardsByUid(uId)
