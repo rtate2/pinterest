@@ -1,5 +1,5 @@
 {
-  "pins1": {
+  "pin1": {
     "name": "Basketball",
     "imageUrl": "https://images.idgesg.net/images/article/2017/10/thinkstockbasketball-100739114-large.jpg",
     "siteUrl": "https://www.pinterest.com/search/pins/?q=sports%20basketball&rs=guide&term_meta[]=sports%7Ctyped&add_refine=basketball%7Cguide%7Cword%7C0",
@@ -7,8 +7,7 @@
     "categoryId": "category2",
     "boardId": "board1"
   },
-
-  "pins2": {
+  "pin2": {
     "name": "Fishing",
     "imageUrl": "https://media.istockphoto.com/photos/fishing-concepts-picture-id664304800?k=6&m=664304800&s=612x612&w=0&h=ROFo47Oot_zqg8SOLgj_3hZ0a8RpsfGfQhdC3zYqUeA=",
     "siteUrl": "https://www.pinterest.com/search/pins/?q=sports%20fishing&rs=typed&term_meta[]=sports%7Ctyped&term_meta[]=fishing%7Ctyped",
@@ -16,8 +15,7 @@
     "categoryId": "category3",
     "boardId": "board1"
   },
-
-  "pins3": {
+  "pin3": {
     "name": "Football",
     "imageUrl": "https://bloximages.newyork1.vip.townnews.com/observer-reporter.com/content/tncms/assets/v3/editorial/9/aa/9aa9481c-dd3b-11e7-bd4d-d75747df4c70/5a2c76af255a7.image.jpg?resize=1200%2C630",
     "siteUrl": "https://www.pinterest.com/search/pins/?q=sports%20football&rs=guide&term_meta[]=sports%7Ctyped&add_refine=football%7Cguide%7Cword%7C4",
@@ -25,8 +23,7 @@
     "categoryId": "category4",
     "boardId": "board1"
   },
-
-  "pins4": {
+  "pin4": {
     "name": "Arts and Crafts",
     "imageUrl": "https://redtricom.files.wordpress.com/2018/05/000023454-l8hkgpcnxhwdpuhggfp.jpg?w=600&h=400",
     "siteUrl": "https://www.pinterest.com/search/pins/?q=arts%20and%20crafts&rs=typed&term_meta[]=arts%20and%20crafts%7Ctyped",
@@ -34,8 +31,7 @@
     "categoryId": "category1",
     "boardId": "board2"
   },
-
-  "pins5": {
+  "pin5": {
     "name": "Arts and Crafts",
     "imageUrl": "https://wvtourism.com/wp-content/uploads/2017/01/wild-and-wonderful-arts-and-crafts-480x344.jpg",
     "siteUrl": "https://www.pinterest.com/search/pins/?q=arts%20and%20crafts&rs=typed&term_meta[]=arts%20and%20crafts%7Ctyped",
@@ -43,8 +39,7 @@
     "categoryId": "category1",
     "boardId": "board2"
   },
-
-  "pins6": {
+  "pin6": {
     "name": "Arts and Crafts",
     "imageUrl": "https://www.saynal.com/wp-content/uploads/2017/05/arts-and-crafts-table.jpg",
     "siteUrl": "https://www.pinterest.com/search/pins/?q=arts%20and%20crafts&rs=typed&term_meta[]=arts%20and%20crafts%7Ctyped",
@@ -52,8 +47,7 @@
     "categoryId": "category1",
     "boardId": "board2"
   },
-
-  "pins7": {
+  "pin7": {
     "name": "Waterproof Keyboard",
     "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61m5yjURX8L._SX466_.jpg",
     "siteUrl": "https://www.pinterest.com/search/pins/?q=technology&rs=typed&term_meta[]=technology%7Ctyped",
@@ -62,7 +56,7 @@
     "boardId": "board3"
   },
 
-  "pins8": {
+  "pin8": {
     "name": "Black Horse",
     "imageUrl": "https://horsej-intellectsolutio.netdna-ssl.com/cdn/farfuture/SVD1oaF2ITMncqEBjp-F4wIPN3Iqw8M25m7mvjCT1-Q/mtime:1543626961/files/styles/article_large/public/pictures-videos/blogs/shutterstock_250751620_-_grigorita_ko_-_web.jpg?itok=dr2UJXfv",
     "siteUrl": "https://www.pinterest.com/search/pins/?q=horses&rs=typed&term_meta[]=horses%7Ctyped",

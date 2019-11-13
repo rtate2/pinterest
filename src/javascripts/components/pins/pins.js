@@ -9,6 +9,8 @@ const buildThePinsBoard = (boardId) => {
       pins.forEach((pin) => {
         domString += `
           <div class="card ${pin.boardId} main-board" style="width: 18rem;">
+          <button type="button" class="close-pin d-flex justify-content-end" data-boardID="${pin.boardId}"  id="${pin.id}" aria-label="Close">x 
+          </button>
           <img src="${pin.imageUrl}" class="card-img-top" alt="${pin.name}">
             <div class="card-body ${pin.uId}">
               <h5 class="card-title">${pin.name}</h5>
@@ -19,6 +21,7 @@ const buildThePinsBoard = (boardId) => {
     `;
       });
       domString += '</div>';
+      domString += '<div class="text-center"><button class="btn btn-danger hide-pins">VIEW ALL BOARDS</button></div>';
       utilities.printToDom('pins', domString);
     })
     .catch((error) => console.error(error));
