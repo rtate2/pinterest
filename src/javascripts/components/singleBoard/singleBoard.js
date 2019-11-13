@@ -1,9 +1,24 @@
 import $ from 'jquery';
+import firebase from 'firebase/app';
+import 'firebase/auth';
 import utilities from '../../helpers/utilities';
 import boardsData from '../../helpers/data/boardsData';
 
 import './singleBoard.scss';
 import pins from '../pins/pins';
+import pinsData from '../../helpers/data/pinsData';
+
+const deletePinFromBoard = (e) => {
+  e.preventDefault();
+  const { uId } = firebase.auth().currentUser;
+  pinsData.deletePin(e.target.id)
+    .then(() => {
+      // eslint-disable-next-line no-use-before-define
+      buildTheBoard(uId);
+      pins.buildThePinsBoard(e.target.dataset.boardid);
+    })
+    .catch((error) => console.error(error));
+};
 
 const displayPinBoards = (e) => {
   const boardId = e.target.id;
@@ -14,7 +29,6 @@ const displayPinBoards = (e) => {
 
 const hidePinBoards = () => {
   $('#pins').on('click', '.hide-pins', () => {
-    console.log('Hey Little Fella');
     $('#pins').hide();
     $('#boards').show();
   });
@@ -40,6 +54,7 @@ const buildTheBoard = (uId) => {
       domString += '</div>';
       utilities.printToDom('boards', domString);
       $('#boards').on('click', '.pin-card', displayPinBoards);
+      $('body').on('click', '.close-pin', deletePinFromBoard);
     })
     .catch((error) => console.error(error));
 };

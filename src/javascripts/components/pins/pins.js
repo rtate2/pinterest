@@ -9,8 +9,7 @@ const buildThePinsBoard = (boardId) => {
       pins.forEach((pin) => {
         domString += `
           <div class="card ${pin.boardId} main-board" style="width: 18rem;">
-          <button type="button" class="close d-flex justify-content-end" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+          <button type="button" class="close-pin d-flex justify-content-end" data-boardID="${pin.boardId}"  id="${pin.id}" aria-label="Close">x 
           </button>
           <img src="${pin.imageUrl}" class="card-img-top" alt="${pin.name}">
             <div class="card-body ${pin.uId}">

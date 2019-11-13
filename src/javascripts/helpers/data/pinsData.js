@@ -17,4 +17,6 @@ const getPinsByBoardId = (boardId) => new Promise((resolve, reject) => {
     .catch((error) => reject(error));
 });
 
-export default { getPinsByBoardId };
+const deletePin = (id) => axios.delete(`${baseUrl}/pins/${id}.json`);
+
+export default { getPinsByBoardId, deletePin };
