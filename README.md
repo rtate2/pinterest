@@ -17,9 +17,9 @@ When the user is on the single board view, there is a button that allows the use
 The user has access to create new pins and/or boards, and will be able to change which board a pin belongs to.
 
 ## Screenshots
-![Pinterest Previews]()
+![Pinterest Previews](https://raw.githubusercontent.com/rtate2/pinterest/master/screenshots/Pinterest-main-view.png)
 
-![Pinterest Previews]()
+![Pinterest Previews](https://raw.githubusercontent.com/rtate2/pinterest/master/screenshots/Pinterest-pin-view.png)
 
 ## How to run
 Clone down this project.
