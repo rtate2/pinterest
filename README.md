@@ -22,10 +22,4 @@ The user has access to create new pins and/or boards, and will be able to change
 ![Pinterest Previews](https://raw.githubusercontent.com/rtate2/pinterest/master/screenshots/Pinterest-pin-view.png)
 
 ## How to run
-Clone down this project.
-
-Go to: https://www.npmjs.com/package/http-server and install "http-server".
-
-Navigate to the project folder in command line interface and type: http-server -p 8888
-
-This will show at: http://localhost:8888 in your internet browser.
+Hosting URL: https://pinterest-41229.firebaseapp.com
